@@ -1,0 +1,36 @@
+{
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[solidity]": {
+    "editor.defaultFormatter": "JuanBlanco.solidity"
+    //"editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.VSCodeCounter": true,
+    "**/artifacts": true,
+    "**/build": true,
+    "**/cache": true,
+    "**/CVS": true,
+    "**/node_modules": true
+  },
+  "git.ignoreLimitWarning": true,
+  "solidity.compileUsingRemoteVersion": "v0.8.2+commit.661d1103",
+  "solidity.linter": "",
+}

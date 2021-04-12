@@ -1,0 +1,31 @@
+{
+  "name": "@crichmond1989/example-evm-app",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "hardhat compile",
+    "console": "hardhat console --no-compile --network localhost",
+    "deploy": "hardhat deploy",
+    "local": "hardhat node --seed",
+    "test": "jest ./test --runInBand"
+  },
+  "dependencies": {
+    "@babel/register": "^7.13.8",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "babel-jest": "^26.6.3",
+    "ethers": "^5.0.32",
+    "hardhat": "^2.1.1",
+    "hardhat-contract-sizer": "^2.0.3",
+    "jest": "^26.6.3",
+    "jest-environment-node-single-context": "^26.2.0",
+    "solc": "^0.8.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@types/jest": "^26.0.20",
+    "prettier": "^2.2.1",
+    "prettier-plugin-solidity": "^1.0.0-beta.6"
+  }
+}

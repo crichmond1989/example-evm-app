@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES2017",
+    "checkJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "resolveJsonModule": true
+  },
+  "lib": [
+    "es2015",
+    "dom"
+  ],
+  "include": [
+    "./**/*.js",
+    "./types/*.d.ts"
+  ]
+}

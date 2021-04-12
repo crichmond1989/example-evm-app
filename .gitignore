@@ -1,0 +1,12 @@
+.VSCodeCounter
+
+artifacts
+build
+cache
+node_modules
+
+.env
+.eslintcache
+
+debug.log
+yarn-error.log
